@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Sling Bag - Tas Selempang Wanita Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+        }
+        
+        .premium-blue-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        
+        .promo-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ef4444;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.8rem;
+            transform: rotate(15deg);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: rotate(15deg) scale(1); }
+            50% { transform: rotate(15deg) scale(1.05); }
+            100% { transform: rotate(15deg) scale(1); }
+        }
+        
+        .countdown-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .testimonial-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product-highlight {
+            position: relative;
+        }
+        
+        .product-highlight::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            background: #3b82f6;
+            border-radius: 2px;
+        }
+        
+        .color-option {
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .color-option:hover {
+            transform: scale(1.05);
+            border-color: #3b82f6;
+        }
+        
+        .color-option.active {
+            border-color: #3b82f6;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .price-tag {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .price-tag::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 40px 40px 0;
+            border-color: transparent #ef4444 transparent transparent;
+        }
+        
+        .price-tag::before {
+            content: "PROMO";
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            color: white;
+            font-size: 0.6rem;
+            font-weight: bold;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Header with Main Image -->
+    <header class="relative">
+        <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk4-m9h0tqajoyrma4.webp" alt="Sabrina Sling Bag" class="w-full h-auto object-cover">
+        <div class="promo-badge">DISKON 40%</div>
+    </header>
+
+    <!-- Product Title & Description -->
+    <section class="container mx-auto px-4 py-8">
+        <div class="max-w-3xl mx-auto text-center">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Sling Bag Wanita Terbaru</h1>
+            <p class="text-lg text-gray-600 mb-6">Lengkapi gaya harianmu dengan Sabrina Sling Bag – tas selempang wanita terbaru yang dirancang khusus untuk kamu yang aktif, stylish, dan suka tampil effortless!</p>
+            
+            <div class="flex justify-center space-x-4 mb-8">
+                <div class="flex items-center">
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <i class="fas fa-star text-yellow-400 mr-1"></i>
+                    <span class="text-gray-600 ml-1">(4.9/5)</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-check-circle text-green-500 mr-1"></i>
+                    <span class="text-gray-600">1.2K+ Terjual</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Highlights -->
+    <section class="premium-blue-bg text-white py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-8">Keunggulan Produk</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="product-highlight bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-white bg-opacity-20 p-2 rounded-full mr-3">
+                            <i class="fas fa-tshirt text-xl"></i>
+                        </div>
+                        <h3 class="font-semibold">Material Premium</h3>
+                    </div>
+                    <p class="text-white text-opacity-80">Kulit sintetis premium yang lembut & tahan lama</p>
+                </div>
+                
+                <div class="product-highlight bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-white bg-opacity-20 p-2 rounded-full mr-3">
+                            <i class="fas fa-ruler-combined text-xl"></i>
+                        </div>
+                        <h3 class="font-semibold">Ukuran Ideal</h3>
+                    </div>
+                    <p class="text-white text-opacity-80">20 x 9 x 22 cm (muat handphone, dompet, make up)</p>
+                </div>
+                
+                <div class="product-highlight bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-white bg-opacity-20 p-2 rounded-full mr-3">
+                            <i class="fas fa-sliders-h text-xl"></i>
+                        </div>
+                        <h3 class="font-semibold">Tali Adjustable</h3>
+                    </div>
+                    <p class="text-white text-opacity-80">Bisa disesuaikan panjang/pendek sesuai kebutuhan</p>
+                </div>
+                
+                <div class="product-highlight bg-white bg-opacity-10 p-6 rounded-lg backdrop-filter backdrop-blur-sm">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-white bg-opacity-20 p-2 rounded-full mr-3">
+                            <i class="fas fa-palette text-xl"></i>
+                        </div>
+                        <h3 class="font-semibold">Warna Kekinian</h3>
+                    </div>
+                    <p class="text-white text-opacity-80">Tersedia dalam beberapa pilihan warna trendi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold text-center mb-8">Detail Produk</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk9-m6kpg5kml4zg91.webp" alt="Detail Sabrina Sling Bag" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg mb-2">Desain Minimalis & Elegan</h3>
+                    <p class="text-gray-600">Sabrina Sling Bag hadir dengan desain minimalis yang cocok untuk berbagai kesempatan, dari santai hingga semi formal.</p>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasf-m484wi94kk2rbe.webp" alt="Kompartemen Sabrina Sling Bag" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg mb-2">Kompartemen Praktis</h3>
+                    <p class="text-gray-600">Dilengkapi dengan kompartemen utama yang luas dan kantong dalam untuk menyimpan barang-barang penting dengan rapi.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="max-w-3xl mx-auto bg-blue-50 rounded-lg p-6">
+            <h3 class="font-bold text-blue-800 mb-3">Spesifikasi Produk:</h3>
+            <ul class="space-y-2">
+                <li class="flex items-start">
+                    <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                    <span><strong>Model:</strong> Sling bag selempang wanita</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                    <span><strong>Material:</strong> Kulit sintetis premium (lembut & tahan lama)</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                    <span><strong>Ukuran:</strong> 20 x 9 x 22 cm (muat handphone, dompet, make up, dll.)</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                    <span><strong>Tali:</strong> Adjustable (bisa panjang/pendek sesuai kebutuhan)</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                    <span><strong>Warna:</strong> Tersedia dalam beberapa warna kekinian (Hitam, Putih, Moca, dll.)</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                    <span><strong>Aksen:</strong> Desain minimalis</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Color Variants -->
+    <section class="bg-gray-50 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center mb-8">Pilihan Warna</h2>
+            <p class="text-center text-gray-600 mb-8">Pilih warna favoritmu untuk menyesuaikan dengan gaya harianmu</p>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 max-w-4xl mx-auto">
+                <div class="color-option rounded-lg overflow-hidden cursor-pointer active">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasj-m5h6n2jnpziuda.webp" alt="Warna Hitam" class="w-full h-auto">
+                </div>
+                <div class="color-option rounded-lg overflow-hidden cursor-pointer">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasc-m5h72uia6rjc4e.webp" alt="Warna Putih" class="w-full h-auto">
+                </div>
+                <div class="color-option rounded-lg overflow-hidden cursor-pointer">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7ras9-m5h72uia863sbd.webp" alt="Warna Moca" class="w-full h-auto">
+                </div>
+                <div class="color-option rounded-lg overflow-hidden cursor-pointer">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasc-m5h72uia9ko8da.webp" alt="Warna Navy" class="w-full h-auto">
+                </div>
+                <div class="color-option rounded-lg overflow-hidden cursor-pointer">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasg-m5uatrsbwm1p25.webp" alt="Warna Pink" class="w-full h-auto">
+                </div>
+                <div class="color-option rounded-lg overflow-hidden cursor-pointer">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasd-m5uatrsbzf6l1c.webp" alt="Warna Merah" class="w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold text-center mb-8">Apa Kata Pelanggan Kami?</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="testimonial-card p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                        <i class="fas fa-user text-blue-500 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Sarah Wijaya</h4>
+                        <div class="flex">
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Tasnya sangat nyaman dipakai sehari-hari. Materialnya premium dan ukurannya pas banget untuk semua kebutuhan. Sudah beli warna hitam dan putih, next mau koleksi warna lainnya!"</p>
+            </div>
+            
+            <div class="testimonial-card p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                        <i class="fas fa-user text-blue-500 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Dian Permata</h4>
+                        <div class="flex">
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Pengiriman cepat dan packing rapi. Tasnya lebih bagus dari foto, bahannya lembut tapi kokoh. Talinya bisa diatur jadi cocok buat dipakai crossbody atau di bahu. Worth it banget harganya!"</p>
+            </div>
+            
+            <div class="testimonial-card p-6">
+                <div class="flex items-center mb-4">
+                    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-3">
+                        <i class="fas fa-user text-blue-500 text-xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Rina Anggraeni</h4>
+                        <div class="flex">
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                            <i class="fas fa-star text-yellow-400 text-sm"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-gray-600">"Desainnya minimalis tapi elegant, cocok untuk kerja atau hangout. Kapasitasnya cukup untuk dompet, hp, powerbank, dan makeup essentials. Sudah dipakai 2 bulan masih seperti baru!"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Countdown -->
+    <section class="premium-blue-bg text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-xl font-bold mb-4">PROMO SPESIAL HARI INI</h2>
+            <p class="mb-6">Dapatkan Diskon Spesial Untuk Hari Ini Saja, Harga Akan Kembali Normal Setelah:</p>
+            
+            <div class="flex justify-center space-x-2 sm:space-x-4 mb-8">
+                <div class="countdown-box rounded-lg p-3 sm:p-4">
+                    <div class="text-2xl sm:text-3xl font-bold" id="countdown-hours">12</div>
+                    <div class="text-xs sm:text-sm">Jam</div>
+                </div>
+                <div class="countdown-box rounded-lg p-3 sm:p-4">
+                    <div class="text-2xl sm:text-3xl font-bold" id="countdown-minutes">45</div>
+                    <div class="text-xs sm:text-sm">Menit</div>
+                </div>
+                <div class="countdown-box rounded-lg p-3 sm:p-4">
+                    <div class="text-2xl sm:text-3xl font-bold" id="countdown-seconds">30</div>
+                    <div class="text-xs sm:text-sm">Detik</div>
+                </div>
+            </div>
+            
+            <div class="max-w-2xl mx-auto bg-white bg-opacity-10 rounded-lg p-4 backdrop-filter backdrop-blur-sm">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <div class="mb-4 sm:mb-0">
+                        <div class="text-sm text-white text-opacity-80">Harga Normal</div>
+                        <div class="text-xl line-through">Rp 329.000</div>
+                    </div>
+                    <div class="text-4xl font-bold text-yellow-300">Rp 199.000</div>
+                    <div class="mt-4 sm:mt-0">
+                        <div class="text-sm text-white text-opacity-80">Anda Hemat</div>
+                        <div class="text-xl">Rp 130.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Notes -->
+    <section class="container mx-auto px-4 py-8">
+        <div class="max-w-3xl mx-auto bg-blue-50 rounded-lg p-6">
+            <h3 class="font-bold text-blue-800 mb-3">Catatan Penting:</h3>
+            <ul class="space-y-2">
+                <li class="flex items-start">
+                    <i class="fas fa-truck text-blue-500 mt-1 mr-2"></i>
+                    <span>Pengiriman 2 - 4 Hari Setelah Pemesanan</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-map-marker-alt text-blue-500 mt-1 mr-2"></i>
+                    <span>Mohon Isi Alamat Dengan Lengkap</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-certificate text-blue-500 mt-1 mr-2"></i>
+                    <span>100% Product Original</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="container mx-auto px-4 py-12">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+                <!-- Promo Image -->
+                <div class="relative">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk4-m9h0tqajoyrma4.webp" alt="Promo Sabrina Sling Bag" class="w-full h-auto">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                        <div class="text-white text-center">
+                            <h2 class="text-2xl font-bold mb-1">PROMO HARI INI SAJA!</h2>
+                            <p class="text-sm opacity-90">Diskon 40% untuk pembelian Sabrina Sling Bag</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Price Tag -->
+                <div class="p-6">
+                    <div class="flex flex-col sm:flex-row justify-between items-center mb-6">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">Sabrina Sling Bag</h3>
+                            <p class="text-gray-600">Tas Selempang Wanita Premium</p>
+                        </div>
+                        <div class="mt-4 sm:mt-0">
+                            <div class="price-tag bg-blue-50 rounded-lg p-4 relative">
+                                <div class="text-sm text-gray-600">Harga Normal</div>
+                                <div class="text-xl line-through text-gray-500">Rp 329.000</div>
+                                <div class="text-3xl font-bold text-blue-600">Rp 199.000</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Order Form Embed -->
+                    <div class="ooef">
+                        <form class="orderonline-embed-form" data-username="vina" data-product-slug="sling-bag-wanita-terbaru" data-product-id="6874cfa5c28df9f1720cefda" id="oo-embed-form-sling-bag-wanita-terbaru-1599" data-origin="orderonline">
+                            <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date();
+            const endOfDay = new Date();
+            endOfDay.setHours(23, 59, 59, 999);
+            
+            const diff = endOfDay - now;
+            
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('countdown-hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('countdown-minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('countdown-seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // Color Selection
+        const colorOptions = document.querySelectorAll('.color-option');
+        colorOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                colorOptions.forEach(opt => opt.classList.remove('active'));
+                option.classList.add('active');
+            });
+        });
+        
+        // OrderOnline Embed Script
+        if (typeof xLogError != 'function') {
+            var xLogError = function (error) {
+                var req = new XMLHttpRequest();
+                var payload = JSON.stringify({
+                    url: document.location.href,
+                    line: error.line,
+                    stack: error.stack
+                });
+                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                req.open('POST', 'https://api.orderonline.id/log', true);
+                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                req.send(params);
+            };
+        }
+        
+        try {
+            if (typeof xEmbedScript != 'function') {
+                var xEmbedScript = function () {
+                    !function(w, d, e, v, id, t, s) {
+                        if (d.getElementById(id)) return;
+                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                        s = d.getElementsByTagName(e)[0];
+                        s.parentNode.insertBefore(t, s);
+                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                };
+            }
+            
+            if (typeof xEmbedInit != 'function') {
+                var xEmbedInit = function (w, n) {
+                    if (w.ooe) return;
+                    n = w.ooe = function() {
+                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    };
+                    if (!w._ooe) w._ooe = n;
+                    n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                };
+            }
+            
+            xEmbedInit(window);
+            ooe('setup', 'redirect', 'https://vina.orderonline.id');
+            ooe('init', '5f17e00168e4c04c273e9925', '6874cfa5c28df9f1720cefda', null, 'oo-embed-form-sling-bag-wanita-terbaru-1599', {
+                "mode":"page",
+                "action":"Klik untuk pemesanan",
+                "title":"Form Pemesanan",
+                "triggerPixel":true,
+                "triggerGtm":true
+            });
+            
+            if (!window.jQuery) {
+                !function(w, d, e, v, id, t, s) {
+                    if (d.getElementById(id)) return;
+                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                    t.addEventListener('load', xEmbedScript);
+                    s = d.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s);
+                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+            } else {
+                xEmbedScript();
+            }
+        } catch (e) {
+            xLogError(e);
+            throw e;
+        }
+    </script>
+</body>
+</html>
